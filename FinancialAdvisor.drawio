@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T18:44:33.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.11" etag="rCZX_ggN1N7EYS7czw2L" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T19:02:26.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xOgi5mtfxE7iOZpmlN1R" version="22.1.11" type="github">
   <diagram name="Page-1" id="jTFOg6rgV-OEBF78EIUw">
-    <mxGraphModel>
+    <mxGraphModel dx="1474" dy="911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-13" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;1º User&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;User comes in to the financial system via website or mobile application (eg.: BAI Direto)&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="970" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-15" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;2º User&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;The user information goes to the amazon lex where the data is formatted and give the answer&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="970" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-16" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;3º User&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Before the Amazon Lex responde to the User the question goes to the Amazon Kendra where the data is transformed using ML models and Kendra search in the Financial Files in S3 something about the question, and finally send the data searched to the lex&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="970" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="65" y="86" width="949" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;User/Platform&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="gIxxEtQwmQU1yNKc5Ncr-18">
+          <mxGeometry y="39.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-4" value="" style="group" vertex="1" connectable="0" parent="gIxxEtQwmQU1yNKc5Ncr-18">
+          <mxGeometry x="202" width="747" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gIxxEtQwmQU1yNKc5Ncr-4">
+          <mxGeometry width="747" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aws_cloud;" vertex="1" parent="gIxxEtQwmQU1yNKc5Ncr-4">
+          <mxGeometry width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;AMAZON LEX&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lex;" vertex="1" parent="gIxxEtQwmQU1yNKc5Ncr-4">
+          <mxGeometry x="98" y="39" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-6" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;AMAZON KENDRA&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.kendra;" vertex="1" parent="gIxxEtQwmQU1yNKc5Ncr-4">
+          <mxGeometry x="334.5" y="39" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-7" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;S3 &lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Financial Document, pdf, doc,xsl...)&lt;/font&gt;&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="gIxxEtQwmQU1yNKc5Ncr-4">
+          <mxGeometry x="604" y="46" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;shape=link;" edge="1" parent="gIxxEtQwmQU1yNKc5Ncr-4" source="gIxxEtQwmQU1yNKc5Ncr-5" target="gIxxEtQwmQU1yNKc5Ncr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;shape=link;" edge="1" parent="gIxxEtQwmQU1yNKc5Ncr-4" source="gIxxEtQwmQU1yNKc5Ncr-6" target="gIxxEtQwmQU1yNKc5Ncr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIxxEtQwmQU1yNKc5Ncr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;shape=link;" edge="1" parent="gIxxEtQwmQU1yNKc5Ncr-18" source="gIxxEtQwmQU1yNKc5Ncr-1" target="gIxxEtQwmQU1yNKc5Ncr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
